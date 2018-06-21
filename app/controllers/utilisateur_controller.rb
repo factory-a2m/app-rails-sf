@@ -8,4 +8,5 @@ class UtilisateurController < ApplicationController
      @utilisateur = Utilisateur.new
   end
 
+  
 end

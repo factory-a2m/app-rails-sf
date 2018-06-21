@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get '/services', to: 'statique#services'
 
   get '/signup', to: 'utilisateur#new'
+  resources :utilisateur
 end
